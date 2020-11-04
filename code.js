@@ -69,19 +69,19 @@ onEvent("goHome3", "click", function() {
 });
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 // In this section, I added picture reactions
-onEvent("linuxIcon", "click", function(){
+onEvent("linuxIcon", "click", function() {
   console.log("Official website of the Linux Foundation: <https://www.linuxfoundation.org/>.");
 });
 
-onEvent("freeSoftwareFoundation", "click", function(){
+onEvent("freeSoftwareFoundation", "click", function() {
   console.log("Official website of the Free Software Foundation: <https://www.fsf.org/>.");
 });
 
-onEvent("richardStallman", "click", function(){
+onEvent("richardStallman", "click", function() {
   console.log("Richard stallman's personal site: <https://stallman.org/>.");
 });
 
-onEvent("GplLogo", "click", function (){
+onEvent("GplLogo", "click", function () {
   console.log("This program is under the GNU General Public License.");
 });
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -90,7 +90,7 @@ onEvent("GplLogo", "click", function (){
  * WARNING!!
  * CONTAINING INAPPROPRIATE CONTENT!!!
  */
-onEvent("pictureOfLinusTorvalds", "click", function(){
+onEvent("pictureOfLinusTorvalds", "click", function() {
   playSound("assets/Nvidia--Fuck-You!.mp3");
   /**
    * Aalto Talk with Linus Torvalds,
